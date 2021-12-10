@@ -14,5 +14,14 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^5.1.0"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SThompsonChicago/MERN-Book-Search-Engine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SThompsonChicago/MERN-Book-Search-Engine/issues"
+  },
+  "homepage": "https://github.com/SThompsonChicago/MERN-Book-Search-Engine#readme"
 }
