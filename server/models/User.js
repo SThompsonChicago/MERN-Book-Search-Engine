@@ -23,15 +23,15 @@ const userSchema = new Schema(
       {
         type: Schema.Types.ObjectId,
         ref: 'Book',
-      }
+      },
     ],
-  },
-  // set this to use virtual below
-  {
-    toJSON: {
-      virtuals: true,
-    },
   }
+  // set this to use virtual below
+  //{
+    //toJSON: {
+      //virtuals: true,
+    //},
+  //}
 );
 
 // hash user password
